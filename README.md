@@ -4,7 +4,7 @@ This project is an excercise for building data warehouse and ETL pipeline using 
 
 The dataset is a simulated dataset of a spotify-like startup. It includes songplay logs, song details and artist details. The data is modeled using a star scheme, with 1 fact table "songplays" and 4 dimension tables "users", "songs", "artists" and "time".
 
-<p align="center"><img src="images/aws.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
+<p align="center"><img src="images/aws1.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
 ## How to Run:
 - configure a redshift cluster on AWS
