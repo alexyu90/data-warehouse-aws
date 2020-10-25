@@ -24,20 +24,20 @@ The dataset is a simulated dataset of a spotify-like startup. It includes songpl
 <p align="center"><img src="images/erd.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
 ### Fact Table
-- table: "songplays" - records in log data associated with song plays
+table: "songplays" - records in log data associated with song plays
 - columns: songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
 ### Dimension Tables
-- table: "users" - users in the app
+table: "users" - users in the app
 - columns: user_id, first_name, last_name, gender, level
 
-- table: "songs" - songs in music database
+table: "songs" - songs in music database
 - columns: song_id, title, artist_id, year, duration
 
-- table: "artists" - artists in music database
+table: "artists" - artists in music database
 - columns: artist_id, name, location, latitude, longitude
 
-- table: "time" - timestamps of records in songplays broken down into specific units
+table: "time" - timestamps of records in songplays broken down into specific units
 - columns: start_time, hour, day, week, month, year, weekday
 
 
